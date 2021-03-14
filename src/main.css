@@ -1,0 +1,10 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+.btn {
+    @apply  outline-none py-1 px-4 ml-4 text-white font-semibold rounded-md;
+}
+.btn-teal {
+    @apply bg-green-500 hover:bg-green-600
+}
+@tailwind components;
+@tailwind utilities;
